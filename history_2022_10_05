@@ -1,0 +1,109 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  ls -lt
+    5  git clone https://github.com/KSooriya/RTR105_2022_foreign
+    6  ls -lt
+    7  cd RTR105_2022_foreign/
+    8  ls -lt
+    9  mkdir class_08
+   10  ls -lt
+   11  cd class_08
+   12  nano task.txt
+   13  nano class_08_test.c 
+   14  nano class_08_test.c printf
+   15  ls -lt
+   16  ls -lta
+   17  nano class_08_test.c_printf
+   18  ls -lt
+   19  ls -lta
+   20  nano class_08_test.c_printf 
+   21  chmod 744 class_08_test.c_printf 
+   22  ls -lt
+   23  cat class_08_test.c_printf 
+   24  lt -lt
+   25  ls -lt
+   26  ls -lt class_08_test.c_printf 
+   27  ls -lta class_08_test.c_printf 
+   28  cat class_08_test.c_printf 
+   29  nano class_08_scanf
+   30  ls -lt
+   31  mv class_08_scanf class_08_test.c_scanf
+   32  ls -lt
+   33  chmod 744 class_08_test.c_scanf
+   34  ls -lt
+   35  cat class_08_test.c_scanf
+   36  ls -lt class_08_test.c_scanf
+   37  ls -lt
+   38  scanf
+   39  scanf class_08_test.c_scanf
+   40  ls -lt
+   41  mv class_08_test.c_scanf class_08_test.c
+   42  ls -lt
+   43  gcc class_08_test.c
+   44  gcc class_08_test.c -o class_08_test.out
+   45  ls -lt
+   46  ./class_08_test.c 
+   47  ./class_08_test.out
+   48  echo $?
+   49  mv class_08_test.c_printf class_08_test.i
+   50  ls -lt
+   51  gcc class_08_test.i -o class_08_test.out
+   52  ls -lt
+   53  mv class_08_test.i class_08_test.c
+   54  ls -lt
+   55  gcc class_08_test.c -o class_08_test.out
+   56  ls -lt
+   57  echo $?
+   58  ./class_08_test.out
+   59  ls -lt
+   60  mv class_08_test.c class_08_test1.c
+   61  ls -lt
+   62  gcc class_08_test1.c -o class_08_test.out
+   63  ls -lt
+   64  gcc class_08_test1.c -o class_08_test1.out
+   65  ls -lt
+   66  ./class_08_test1.out
+   67  ./class_08_test.out
+   68  rm -rt
+   69  rm class_08_test1.out
+   70  rm class_08_test.out
+   71  rm class_08_test.c
+   72  ls-lt
+   73  ls -lt
+   74  rm a.out
+   75  rm class_08_test1.c 
+   76  ls -lt
+   77  nano class_08_printf_test.c
+   78  nano class_08_scanf_test.c
+   79  ls -lt
+   80  chmod 744 class_08_printf_test.c 
+   81  chmod 744 class_08_scanf_test.c 
+   82  ls -lt
+   83  gcc class_08_printf_test.c -o class_08_printf_test.out
+   84  gcc class_08_scanf_test.c -o class_08_scanf_test.out
+   85  clear
+   86  ls -lt
+   87  rm class_08_printf_test.c 
+   88  ls -lt
+   89  gcc class_08_scanf_test.c -o class_08_scanf_test.out
+   90  nano class_08_scanf_test.c 
+   91  ls -lt
+   92  gcc class_08_scanf_test.c -o class_08_scanf_test.out
+   93  nano class_08_scanf_test.c 
+   94  ls -lt
+   95  gcc class_08_scanf_test.c -o class_08_scanf_test.out
+   96  ls -lt
+   97  ./class_08_scanf_test.out
+   98  nano class_08_printf_test.c
+   99  ls -lt
+  100  chmod 744 class_08_printf_test.c 
+  101  ls -lt
+  102  gcc class_08_printf_test.c -o class_08_printf_test.out
+  103  ls -lt
+  104  ./class_08_printf_test.out
+  105  echo $?
+  106  nano class_08_scanf_test.c
+  107  cd ..
+  108  ./git-upload 08
+  109  history > history_2022_10_05
