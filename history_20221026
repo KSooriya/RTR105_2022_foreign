@@ -1,0 +1,82 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/KSooriya/RTR105_2022_foreign
+    4  ls -lt
+    5  cd RTR105_2022_foreign/
+    6  ls -lt
+    7  mkdir class_11
+    8  cd class_11
+    9  cd ..
+   10  cd class_11
+   11  cd ..
+   12  git clone https://github.com/tatusmatrix/RTR105_2022_foreign
+   13  cd RTR105_2022_foreign/
+   14  cd class_11
+   15  nano loop_while_test.c
+   16  nano loop_for_test.c
+   17  nano loop_while_test.c 
+   18  nano loop_do_while_test.c
+   19  gcc loop_while_test.c -o while.out
+   20  gcc loop_for_test.c -o for.out
+   21  gcc loop_do_while_test.c -o do_while.out
+   22  ./ while.out 
+   23  ./while.out 
+   24  ./for.out 
+   25  ./do_while.out 
+   26  nano practise_work_for_loops_test.c
+   27  gcc practise_work_for_loops_test.c 
+   28  nano practise_work_for_loops_test.c
+   29  gcc practise_work_for_loops_test.c 
+   30  ./p
+   31  ls -lt
+   32  ./a.out 
+   33  nano practise_work_for_loops_test.c 
+   34  gcc practise_work_for_loops_test.c 
+   35  ./a.out 
+   36  nano practise_work_for_loops_test.c 
+   37  gcc practise_work_for_loops_test.c 
+   38  ./a.out 
+   39  nano practise_work_for_loops_test.c 
+   40  gcc practise_work_for_loops_test.c 
+   41  nano practise_work_for_loops_test.c 
+   42  gcc practise_work_for_loops_test.c 
+   43  nano practise_work_for_loops_test.c 
+   44  gcc practise_work_for_loops_test.c 
+   45  nano practise_work_for_loops_test.c 
+   46  gcc practise_work_for_loops_test.c 
+   47  cc practise_work_for_loops_test.
+   48  nano practise_work_for_loops_test.c 
+   49  gcc practise_work_for_loops_test.c 
+   50  nano practise_work_for_loops_test.c 
+   51  gcc practise_work_for_loops_test.c 
+   52  ./a.out 
+   53  nano practise_work_for_loops_test.c 
+   54  gcc practise_work_for_loops_test.c 
+   55  ./a.out 
+   56  nano practise_work_for_loops_test.c 
+   57  gcc practise_work_for_loops_test.c 
+   58  nano practise_work_for_loops_test.c 
+   59  gcc practise_work_for_loops_test.c 
+   60  ./a.out 
+   61  ls -lt
+   62  mv a.out practise_by_do_while.out
+   63  mv practise_work_for_loops_test.c practise_work_for_while_loops_test.c 
+   64  nano practise_work_for_loops_test.c 
+   65  nano practise_work_for_loop_test.c 
+   66  gcc practise_work_for_loop_test.c -o practise_work_for_loop_test.out 
+   67  nano practise_work_for_loop_test.c 
+   68  gcc practise_work_for_loop_test.c -o practise_work_for_loop_test.out 
+   69  ./practise_work_for_loop_test.out 
+   70  nano practise_work_for_loop_test.c 
+   71  gcc practise_work_for_loop_test.c -o practise_work_for_loop_test.out 
+   72  nano practise_work_for_loop_test.c 
+   73  gcc practise_work_for_loop_test.c -o practise_work_for_loop_test.out 
+   74  ./practise_work_for_loop_test.out 
+   75  ls -lt
+   76  cd ..
+   77  ./git-upload class_11
+   78  cd ..
+   79  rm RTR105_2022_foreign/
+   80  rm - rt RTR105_2022_foreign/
+   81  cd RTR105_2022_foreign/
+   82  history > history_20221026
