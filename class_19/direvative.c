@@ -11,11 +11,12 @@ float delta_x=5.e-1;
 float * x;
 float * f;
 float * fa;
+float * fnd;
 int N = (b-a)/delta_x + 1;
- x = (float*) malloc ((N) * sizeof(float)); 
+ x = (float*) malloc ((N) * sizeof(float));
  f = (float*) malloc ((N) * sizeof(float));
  fa = (float*) malloc ((N) * sizeof(float));
- 
+ fnd = (float*) malloc ((N-1) * sizeof(float));
    if (x==NULL) exit (1);
    if (f==NULL) exit (1);
    if (fa==NULL) exit (1);
@@ -38,6 +39,8 @@ while(i<N)
     printf("%3d\t%6.3f\t%6.3f\t%6.3f\n",i,x[i],f[i],fa[i]);
     i++;
 }
+
+//while
 
 
 return 0;
