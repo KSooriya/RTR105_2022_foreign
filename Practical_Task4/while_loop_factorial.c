@@ -18,7 +18,7 @@ int main()
     if (f<100)
     while (n1=1)
     {
-    printf("The Factorial of %d is : %d",n,f);
+    printf("The Factorial of %d is : %lld",n,f);
     return 0;
     }
    if (f>100)
