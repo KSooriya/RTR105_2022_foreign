@@ -1,8 +1,9 @@
+#include<stdio.h>
 int main()
 {
     char num;
     printf("Enter a natural number :");
-    scanf("%d", &num);
+    scanf("%hhd", &num);
     
     int i;
     printf("Binary code : ");
@@ -10,5 +11,6 @@ int main()
         printf("%d", (num >> i) & 1);
     }
     
+printf("\n");
     return 0;
 }
